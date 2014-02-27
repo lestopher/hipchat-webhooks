@@ -23,7 +23,7 @@ type Message struct {
 		MentionName string `json:"mention_name"`
 		Name        string `json:"name"`
 	} `json:"from"`
-	Id       int32     `json:"id"`
+	Id       string    `json:"id"`
 	Mentions []Mention `json:"mentions"`
 	Message  string    `json:"message"`
 }
