@@ -46,3 +46,9 @@ type Room struct {
 	} `json:"links"`
 	Name string `json:"name"`
 }
+
+type RoomNotification struct {
+	Color         string `json:"color"`
+	Message       string `json:"message"`
+	MessageFormat string `json:"message_format"`
+}
