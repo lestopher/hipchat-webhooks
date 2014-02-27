@@ -51,4 +51,5 @@ type RoomNotification struct {
 	Color         string `json:"color"`
 	Message       string `json:"message"`
 	MessageFormat string `json:"message_format"`
+	Notify        bool   `json:"notify"`
 }
